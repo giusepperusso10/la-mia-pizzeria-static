@@ -1,10 +1,4 @@
-﻿@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html, body, .container {
+﻿html, body, .container {
     height: 100%;
 }
 
@@ -16,14 +10,14 @@ html, body, .container {
     box-sizing: border-box;
 }
 
-.row {
+.ro {
     height: 100%;
     display: table-row;
 }
 
-.row .no-float {
-    display: table-cell;
-    float: none;
+@media (min-width: 992px) {
+    .ro .no-float {
+        display: table-cell;
+        float: none;
+    }
 }
-
-
